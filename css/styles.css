@@ -130,11 +130,16 @@ body{
 }
 .team-title{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
 .team .text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
+    text-align: center;
 }
 /* footer */
 footer{
@@ -148,6 +153,7 @@ address{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    font-style: normal;
 }
 /* contact */
 .contacts-link.secondary {
@@ -174,4 +180,8 @@ address{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+    color: var(--primary-text-color);
+}
+.work-link {
+    text-decoration: none;
 }
